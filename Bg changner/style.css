@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+}
+.colors {
+  display: flex;
+  gap: 5px;
+  margin: 10px;
+}
+button {
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  border: 2px solid black;
+}
+#white {
+  background-color: white;
+}
+#grey {
+  background-color: gray;
+}
+#blue {
+  background-color: blue;
+}
+#yellow {
+  background-color: yellow;
+}

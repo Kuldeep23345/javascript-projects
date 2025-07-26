@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+body {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+h1 {
+  font-size: 3rem;
+}
+button {
+  height: 40px;
+  width: 40px;
+  background-color: cyan;
+  border: 1px solid gray;
+  border-radius: 3px;
+  margin: 15px 0px;
+  font-size: 1rem;
+}
+input {
+  width: 5rem;
+  height: 2.2rem;
+}
+.reset {
+  height: 40px;
+  width: 75px;
+}
